@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50954" started-at="2019-12-14T12:55:56Z" finished-at="2019-12-14T12:56:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50954" started-at="2019-12-14T12:55:56Z" finished-at="2019-12-14T12:56:47Z">
+      <class name="com.qa.test.LoginTest">
+        <test-method status="PASS" signature="Browserinitlization()[pri:0, instance:com.qa.test.LoginTest@4abdb505]" name="Browserinitlization" is-config="true" duration-ms="15615" started-at="2019-12-14T12:55:56Z" finished-at="2019-12-14T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserinitlization -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.qa.test.LoginTest@4abdb505]" name="verifyTitle" duration-ms="59" started-at="2019-12-14T12:56:12Z" finished-at="2019-12-14T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="menuclick()[pri:2, instance:com.qa.test.LoginTest@4abdb505]" name="menuclick" duration-ms="1012" started-at="2019-12-14T12:56:12Z" finished-at="2019-12-14T12:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuclick -->
+        <test-method status="PASS" signature="signin()[pri:3, instance:com.qa.test.LoginTest@4abdb505]" name="signin" duration-ms="1536" started-at="2019-12-14T12:56:13Z" finished-at="2019-12-14T12:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="login()[pri:4, instance:com.qa.test.LoginTest@4abdb505]" name="login" duration-ms="6310" started-at="2019-12-14T12:56:15Z" finished-at="2019-12-14T12:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.qa.test.LoginTest -->
+      <class name="com.qa.test.HomePageTest">
+        <test-method status="PASS" signature="clickonLink()[pri:5, instance:com.qa.test.HomePageTest@7ce6a65d]" name="clickonLink" duration-ms="26017" started-at="2019-12-14T12:56:21Z" finished-at="2019-12-14T12:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonLink -->
+      </class> <!-- com.qa.test.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
