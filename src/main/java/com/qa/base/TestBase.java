@@ -51,7 +51,7 @@ public class TestBase {
 		String browsername = property.getProperty("Browser");
 		if(browsername.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "../Amazon_Exe/src/main/java/com/qa/drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\Jenkins\\drivers\\chromedriver.exe");
 			driver= new ChromeDriver();
 			event= new EventFiringWebDriver(driver);
 			list= new WebEventList();
