@@ -45,14 +45,19 @@ public class LoginTest extends TestBase{
 	}
 	
 	@Test(priority=1)
-	public void verifyTitle()
+	public void verifyTitle() throws InterruptedException
 	{
 
 	
 		
 		String title= login.verifyPageTitle();
-		log.info("Title of the Page is" + " " + title);
-		
+		try {
+			log.info("Title of the Page is" + " " + title);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Thread.sleep(5000);
 		asse.assertEquals(title, "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
 		//asse.assertAll();
 		/*asse.assertEquals(actual, expected);
