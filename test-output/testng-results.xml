@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="50954" started-at="2019-12-14T12:55:56Z" finished-at="2019-12-14T12:56:47Z">
+  <suite name="Suite" duration-ms="47600" started-at="2019-12-15T07:27:58Z" finished-at="2019-12-15T07:28:46Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="50954" started-at="2019-12-14T12:55:56Z" finished-at="2019-12-14T12:56:47Z">
+    <test name="Test" duration-ms="47600" started-at="2019-12-15T07:27:58Z" finished-at="2019-12-15T07:28:46Z">
       <class name="com.qa.test.LoginTest">
-        <test-method status="PASS" signature="Browserinitlization()[pri:0, instance:com.qa.test.LoginTest@4abdb505]" name="Browserinitlization" is-config="true" duration-ms="15615" started-at="2019-12-14T12:55:56Z" finished-at="2019-12-14T12:56:12Z">
+        <test-method status="PASS" signature="Browserinitlization()[pri:0, instance:com.qa.test.LoginTest@1500955a]" name="Browserinitlization" is-config="true" duration-ms="13971" started-at="2019-12-15T07:27:59Z" finished-at="2019-12-15T07:28:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browserinitlization -->
-        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.qa.test.LoginTest@4abdb505]" name="verifyTitle" duration-ms="59" started-at="2019-12-14T12:56:12Z" finished-at="2019-12-14T12:56:12Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.qa.test.LoginTest@1500955a]" name="verifyTitle" duration-ms="39" started-at="2019-12-15T07:28:13Z" finished-at="2019-12-15T07:28:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="menuclick()[pri:2, instance:com.qa.test.LoginTest@4abdb505]" name="menuclick" duration-ms="1012" started-at="2019-12-14T12:56:12Z" finished-at="2019-12-14T12:56:13Z">
+        <test-method status="PASS" signature="menuclick()[pri:2, instance:com.qa.test.LoginTest@1500955a]" name="menuclick" duration-ms="679" started-at="2019-12-15T07:28:13Z" finished-at="2019-12-15T07:28:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuclick -->
-        <test-method status="PASS" signature="signin()[pri:3, instance:com.qa.test.LoginTest@4abdb505]" name="signin" duration-ms="1536" started-at="2019-12-14T12:56:13Z" finished-at="2019-12-14T12:56:15Z">
+        <test-method status="PASS" signature="signin()[pri:3, instance:com.qa.test.LoginTest@1500955a]" name="signin" duration-ms="1853" started-at="2019-12-15T07:28:13Z" finished-at="2019-12-15T07:28:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method status="PASS" signature="login()[pri:4, instance:com.qa.test.LoginTest@4abdb505]" name="login" duration-ms="6310" started-at="2019-12-14T12:56:15Z" finished-at="2019-12-14T12:56:21Z">
+        <test-method status="PASS" signature="login()[pri:4, instance:com.qa.test.LoginTest@1500955a]" name="login" duration-ms="6377" started-at="2019-12-15T07:28:15Z" finished-at="2019-12-15T07:28:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- com.qa.test.LoginTest -->
       <class name="com.qa.test.HomePageTest">
-        <test-method status="PASS" signature="clickonLink()[pri:5, instance:com.qa.test.HomePageTest@7ce6a65d]" name="clickonLink" duration-ms="26017" started-at="2019-12-14T12:56:21Z" finished-at="2019-12-14T12:56:47Z">
+        <test-method status="PASS" signature="clickonLink()[pri:5, instance:com.qa.test.HomePageTest@e874448]" name="clickonLink" duration-ms="24427" started-at="2019-12-15T07:28:22Z" finished-at="2019-12-15T07:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonLink -->

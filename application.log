@@ -1,1 +1,41 @@
-2019-12-14 18:38:37,917  INFO [main] TestNGListener:68 - Test Case Started Test
+2019-12-15 12:57:58,952  INFO [main] TestNGListener:68 - Test Case Started Test
+2019-12-15 12:58:04,896  INFO [main] WebEventList:144 - Before Navigating to: 'https://www.amazon.in/'
+2019-12-15 12:58:09,123  INFO [main] WebEventList:78 - Naviagted to: 'https://www.amazon.in/'
+2019-12-15 12:58:09,129  INFO [main] LoginTest:42 - Browser Intiliazed
+2019-12-15 12:58:13,190  INFO [main] LoginTest:54 - Title of the Page is Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+2019-12-15 12:58:13,383  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //a[@id='nav-hamburger-menu']]
+2019-12-15 12:58:13,881  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //a[@id='nav-hamburger-menu']]
+2019-12-15 12:58:13,882  INFO [main] LoginTest:76 - Clicked on Menu Button
+2019-12-15 12:58:14,436  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //div[@id='hmenu-customer-profile']]
+2019-12-15 12:58:15,737  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //div[@id='hmenu-customer-profile']]
+2019-12-15 12:58:15,737  INFO [main] LoginTest:85 - Clicked on SignIn Link
+2019-12-15 12:58:16,105  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //input[@id='continue']]
+2019-12-15 12:58:17,526  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //input[@id='continue']]
+2019-12-15 12:58:17,792  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //input[@id='signInSubmit']]
+2019-12-15 12:58:22,113  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //input[@id='signInSubmit']]
+2019-12-15 12:58:22,114  INFO [main] LoginPage:66 - Login button clicked
+2019-12-15 12:58:22,116  INFO [main] LoginTest:94 - Username and Password Entered
+2019-12-15 12:58:22,177  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //a[@id='nav-hamburger-menu']]
+2019-12-15 12:58:24,397  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //a[@id='nav-hamburger-menu']]
+2019-12-15 12:58:24,398  INFO [main] HomePage:39 - Clicked on Menu button
+2019-12-15 12:58:24,422  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //div[contains(text(),'Mobiles, Computers')]]
+2019-12-15 12:58:24,536  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //div[contains(text(),'Mobiles, Computers')]]
+2019-12-15 12:58:24,536  INFO [main] HomePage:41 - Clicked on Mobile & Computers Link
+2019-12-15 12:58:29,566  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //div[contains(text(),'Laptops')]]
+2019-12-15 12:58:33,751  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //div[contains(text(),'Laptops')]]
+2019-12-15 12:58:33,751  INFO [main] HomePage:48 - Clicked on Laptop Link
+2019-12-15 12:58:33,855  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //input[@name='s-ref-checkbox-Apple']]
+2019-12-15 12:58:34,733  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //input[@name='s-ref-checkbox-Apple']]
+2019-12-15 12:58:34,733  INFO [main] HomePage:54 - Apple Brand Clicked
+2019-12-15 12:58:35,913  INFO [main] WebEventList:108 - Trying to click on [[[[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //select[@id='s-result-sort-select']]] -> xpath: .//option[normalize-space(.) = "Price: High to Low"]]
+2019-12-15 12:58:37,671  INFO [main] WebEventList:43 - Clicked on [[[[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //select[@id='s-result-sort-select']]] -> xpath: .//option[normalize-space(.) = "Price: High to Low"]]
+2019-12-15 12:58:37,672  INFO [main] HomePage:61 - Clicked on High to low
+2019-12-15 12:58:39,712  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //section[@aria-label='4 Stars & Up']]
+2019-12-15 12:58:41,293  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //section[@aria-label='4 Stars & Up']]
+2019-12-15 12:58:46,334  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //span[@class='a-price-whole']]
+2019-12-15 12:58:46,546  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on XP (4d51b96152b094636049de637f249fc1)] -> xpath: //span[@class='a-price-whole']]
+2019-12-15 12:58:46,649 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-12-15 12:58:46,651 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-12-15 12:58:46,654 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-12-15 12:58:46,655 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-12-15 12:58:46,655 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

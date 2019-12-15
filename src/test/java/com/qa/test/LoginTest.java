@@ -54,7 +54,7 @@ public class LoginTest extends TestBase{
 		log.info("Title of the Page is" + " " + title);
 		
 		asse.assertEquals(title, "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
-		asse.assertAll();
+		//asse.assertAll();
 		/*asse.assertEquals(actual, expected);
 		asse.assertEqualsNoOrder(actual, expected);
 		asse.assertNotEquals(actual, expected);
