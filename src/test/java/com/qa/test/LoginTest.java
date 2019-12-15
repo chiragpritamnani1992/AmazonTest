@@ -55,6 +55,17 @@ public class LoginTest extends TestBase{
 		
 		asse.assertEquals(title, "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
 		asse.assertAll();
+		/*asse.assertEquals(actual, expected);
+		asse.assertEqualsNoOrder(actual, expected);
+		asse.assertNotEquals(actual, expected);
+		asse.assertNotNull(object);
+		asse.assertNotSame(actual, expected);
+		asse.assertSame(actual, expected);
+		asse.assertNull(object, message);
+		asse.assertTrue(condition, message);
+		
+		*/
+		
 	}
 	
 	@Test(priority=2)

@@ -1,13 +1,13 @@
 package com.qa.pages;
 
 import java.io.FileNotFoundException;
-import java.util.Collections;
+
 import java.util.List;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -27,7 +27,6 @@ public class HomePage extends LoginPage {
 	
 	By star= By.xpath("//section[@aria-label='4 Stars & Up']");
 	
-	//span [contains(text(),'4 Stars & Up')]
 	public HomePage()  throws FileNotFoundException
 	{
 		PageFactory.initElements(driver, this);
@@ -67,6 +66,7 @@ public class HomePage extends LoginPage {
 		driver.findElement(star).click();
 	}
 	
+	@SuppressWarnings("unused")
 	public void sort() throws InterruptedException
 	{
 		Thread.sleep(5000);
