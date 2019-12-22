@@ -14,7 +14,7 @@ public class LoginPage extends TestBase{
 
 Logger log= LogManager.getLogger(LoginPage.class);
 
-By menu=By.xpath("//a[@id='nav-hamburger-menuu']");
+By menu=By.xpath("//a[@id='nav-hamburger-menu']");
 
 By sigin= By.xpath("//div[@id='hmenu-customer-profile']");
 	
