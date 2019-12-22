@@ -15,11 +15,11 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 
-public class WebEventList implements WebDriverEventListener {
+public class WebEventList extends TestBase implements WebDriverEventListener {
 
 	Logger log= LogManager.getLogger(WebEventList.class);
 
-	ExtentTest test;
+	public static TestNGListener test = new TestNGListener();
 	
 
 	
@@ -76,7 +76,7 @@ public class WebEventList implements WebDriverEventListener {
 
 	public void afterNavigateTo(String arg0, WebDriver arg1) {
 		log.info("Naviagted to: '"+ arg0 + "'");
-	
+		
 	}
 
 	public void afterScript(String arg0, WebDriver arg1) {

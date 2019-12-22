@@ -10,14 +10,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.qa.base.TestBase;
 
-
-
-
 public class LoginPage extends TestBase{
 
 Logger log= LogManager.getLogger(LoginPage.class);
 
-By menu=By.xpath("//a[@id='nav-hamburger-menu']");
+By menu=By.xpath("//a[@id='nav-hamburger-menuu']");
 
 By sigin= By.xpath("//div[@id='hmenu-customer-profile']");
 	

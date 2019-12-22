@@ -1,4 +1,4 @@
-/*package com.qa.ExtentReports;
+package com.qa.ExtentReports;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -28,4 +28,3 @@ public class ExtentManager {
 	}
 
 }
-*/

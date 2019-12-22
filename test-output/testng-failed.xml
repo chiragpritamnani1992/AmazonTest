@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.listener.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.qa.test.HomePageTest">
+      <class name="com.qa.test.LoginTest">
         <methods>
-          <include name="clickonLink"/>
+          <include name="menuclick"/>
+          <include name="Browserinitlization"/>
+          <include name="signin"/>
         </methods>
-      </class> <!-- com.qa.test.HomePageTest -->
+      </class> <!-- com.qa.test.LoginTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

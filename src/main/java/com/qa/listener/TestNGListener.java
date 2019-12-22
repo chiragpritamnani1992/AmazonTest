@@ -22,16 +22,16 @@ import com.relevantcodes.extentreports.LogStatus;
 public class TestNGListener extends TestBase implements ITestListener{
 	Logger log= LogManager.getLogger(TestNGListener.class);
 
-	 protected static ExtentReports reports;
-	 protected static ExtentTest test;
-	 
-	 TestBase sc = new TestBase();
+
+	public static ExtentTest test;
+	public static ExtentReports reports;
+
 	public void onTestStart(ITestResult result) {
 		
-		
-
-		  test = reports.startTest(result.getMethod().getMethodName());
-		  test.log(LogStatus.INFO, result.getMethod().getMethodName() + "test is started");
+		test= reports.startTest(result.getMethod().getMethodName());
+		log.info("Test Case Started"+ " " + result.getMethod().getMethodName());
+		test.log(LogStatus.INFO, result.getMethod().getMethodName() + "  "+ "test is started");
+	
 		
 	}
 
@@ -40,21 +40,37 @@ public class TestNGListener extends TestBase implements ITestListener{
 
 	
 		test.log(LogStatus.PASS, result.getMethod().getMethodName() + "  "+ "test is passed");
+		log.info("TestCase Passed " + result.getMethod().getMethodName());
 		
 	}
 
 	public void onTestFailure(ITestResult result) {
 	
-		screenshot(result.getMethod().getMethodName());
-		test.log(LogStatus.FAIL, result.getMethod().getMethodName() + "test is failed", result.getThrowable().getMessage());  
+
+		// Failure - 2
+		// Pass=1
+		// Throwbale : If we want to print all the error and execption and Super class of error is throwable
 		
+		if(result.getStatus()==ITestResult.FAILURE)
+		{
+			test.log(LogStatus.FAIL, "Test Case Failed is" +result.getMethod().getMethodName());
+			test.log(LogStatus.FAIL, "Test Case Failed is" +result.getThrowable()); 
+			String scpath= screenshot(driver, result.getMethod().getMethodName());
+			
+			test.log(LogStatus.FAIL, test.addScreenCapture(scpath));
+			
+		}
+
+		test.log(LogStatus.FAIL, result.getMethod().getMethodName() + "test is failed", result.getThrowable().getMessage());
+		
+		log.info("TestCase Failed " + result.getMethod().getMethodName());
 		
 		
 	}
 	public void onTestSkipped(ITestResult result) {
 		
 		test.log(LogStatus.SKIP, result.getMethod().getMethodName() + "test is skipped");
-		
+		log.info("TestCase Skipped " + result.getMethod().getMethodName());
 		
 		
 	}
@@ -66,27 +82,33 @@ public class TestNGListener extends TestBase implements ITestListener{
 
 	public void onStart(ITestContext context) {
 		log.info("Test Case Started"+ " " + context.getName());
-		
+
 		String workingdir= System.getProperty("user.dir");
 		String datename= new SimpleDateFormat("yyyy-MM-d-hh-mm-ss").format(new Date());
 		reports=new ExtentReports(workingdir+"\\ExtentReports\\ExtentReportResults"+ " "+datename+".html",true);
 		
+		reports.addSystemInfo("Host Name", "Chirag");
+		reports.addSystemInfo("Enviroment", "QA");
 		
 	}
 
 	public void onFinish(ITestContext context) {
-		
-		test.log(LogStatus.INFO, context.getName() + "Test Case Finished");
-		
+		log.info("TestCase Finished " + context.getName());
 		reports.endTest(test);
-		reports.flush();
+	    reports.flush();
+	    
 
 	}
 	
+	public void log(String details)
+	{
+		
+		
+		test.log(LogStatus.INFO, details);
+		
+		
+	}
 	
-
-
-
 
 	
 
