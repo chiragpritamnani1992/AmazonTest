@@ -1,33 +1,31 @@
-2019-12-25 19:48:55,971  INFO [main] WebEventList:144 - Before Navigating to: 'https://www.amazon.in/'
-2019-12-25 19:49:01,581  INFO [main] WebEventList:78 - Naviagted to: 'https://www.amazon.in/'
-2019-12-25 19:49:01,627  INFO [main] LoginTest:72 - Browser Intiliazed
-2019-12-25 19:49:05,634  INFO [main] TestNGListener:86 - Test Case Started Test
-2019-12-25 19:49:06,002  INFO [main] TestNGListener:34 - Test Case Started verifyTitle
-2019-12-25 19:49:06,024  INFO [main] LoginTest:83 - Title of the Page is Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
-2019-12-25 19:49:06,032  INFO [main] TestNGListener:45 - TestCase Passed verifyTitle
-2019-12-25 19:49:06,041  INFO [main] TestNGListener:34 - Test Case Started menuclick
-2019-12-25 19:49:06,107  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //a[@id='nav-hamburger-menu']]
-2019-12-25 19:49:06,357  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //a[@id='nav-hamburger-menu']]
-2019-12-25 19:49:06,358  INFO [main] LoginTest:107 - Clicked on Menu Button
-2019-12-25 19:49:06,361  INFO [main] TestNGListener:45 - TestCase Passed menuclick
-2019-12-25 19:49:06,364  INFO [main] TestNGListener:34 - Test Case Started signin
-2019-12-25 19:49:06,752  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //div[@id='hmenu-customer-profile']]
-2019-12-25 19:49:08,229  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //div[@id='hmenu-customer-profile']]
-2019-12-25 19:49:08,230  INFO [main] LoginTest:116 - Clicked on SignIn Link
-2019-12-25 19:49:08,234  INFO [main] TestNGListener:45 - TestCase Passed signin
-2019-12-25 19:49:09,864  INFO [main] TestNGListener:34 - Test Case Started login
-2019-12-25 19:49:10,116  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //input[@id='continue']]
-2019-12-25 19:49:11,261  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //input[@id='continue']]
-2019-12-25 19:49:11,558  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //input[@id='signInSubmit']]
-2019-12-25 19:49:17,266  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //input[@id='signInSubmit']]
-2019-12-25 19:49:17,267  INFO [main] LoginPage:70 - Login button clicked
-2019-12-25 19:49:19,388  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //a[@id='nav-hamburger-menu']]
-2019-12-25 19:49:19,873  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //a[@id='nav-hamburger-menu']]
-2019-12-25 19:49:20,144  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //div[contains(text(),'Sign Out')]]
-2019-12-25 19:49:22,623  INFO [main] TestNGListener:68 - TestCase Failed login
-2019-12-25 19:49:22,626  INFO [main] TestNGListener:34 - Test Case Started login
-2019-12-25 19:49:33,776  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //input[@id='continue']]
-2019-12-25 19:49:34,713  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //input[@id='continue']]
-2019-12-25 19:49:34,859  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //input[@id='signInSubmit']]
-2019-12-25 19:49:36,035  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on WINDOWS (a1c27f3ff78aa18f34d639ca9fb86bfd)] -> xpath: //input[@id='signInSubmit']]
-2019-12-25 19:49:36,036  INFO [main] LoginPage:70 - Login button clicked
+2019-12-25 19:57:28,204  INFO [main] WebEventList:144 - Before Navigating to: 'https://www.amazon.in/'
+2019-12-25 19:57:32,626  INFO [main] WebEventList:78 - Naviagted to: 'https://www.amazon.in/'
+2019-12-25 19:57:32,652  INFO [main] LoginTest:72 - Browser Intiliazed
+2019-12-25 19:57:36,660  INFO [main] TestNGListener:86 - Test Case Started Test
+2019-12-25 19:57:36,998  INFO [main] TestNGListener:34 - Test Case Started verifyTitle
+2019-12-25 19:57:37,021  INFO [main] LoginTest:83 - Title of the Page is Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+2019-12-25 19:57:37,030  INFO [main] TestNGListener:45 - TestCase Passed verifyTitle
+2019-12-25 19:57:37,038  INFO [main] TestNGListener:34 - Test Case Started menuclick
+2019-12-25 19:57:37,108  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on WINDOWS (545e3d99a18090eb976dd2d2a1962f85)] -> xpath: //a[@id='nav-hamburger-menu']]
+2019-12-25 19:57:37,488  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on WINDOWS (545e3d99a18090eb976dd2d2a1962f85)] -> xpath: //a[@id='nav-hamburger-menu']]
+2019-12-25 19:57:37,488  INFO [main] LoginTest:107 - Clicked on Menu Button
+2019-12-25 19:57:37,492  INFO [main] TestNGListener:45 - TestCase Passed menuclick
+2019-12-25 19:57:37,496  INFO [main] TestNGListener:34 - Test Case Started signin
+2019-12-25 19:57:37,894  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on WINDOWS (545e3d99a18090eb976dd2d2a1962f85)] -> xpath: //div[@id='hmenu-customer-profile']]
+2019-12-25 19:57:39,323  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on WINDOWS (545e3d99a18090eb976dd2d2a1962f85)] -> xpath: //div[@id='hmenu-customer-profile']]
+2019-12-25 19:57:39,324  INFO [main] LoginTest:116 - Clicked on SignIn Link
+2019-12-25 19:57:39,328  INFO [main] TestNGListener:45 - TestCase Passed signin
+2019-12-25 19:57:39,333  INFO [main] TestNGListener:34 - Test Case Started login
+2019-12-25 19:57:39,666  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on WINDOWS (545e3d99a18090eb976dd2d2a1962f85)] -> xpath: //input[@id='continue']]
+2019-12-25 19:57:40,895  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on WINDOWS (545e3d99a18090eb976dd2d2a1962f85)] -> xpath: //input[@id='continue']]
+2019-12-25 19:57:41,145  INFO [main] WebEventList:108 - Trying to click on [[ChromeDriver: chrome on WINDOWS (545e3d99a18090eb976dd2d2a1962f85)] -> xpath: //input[@id='signInSubmit']]
+2019-12-25 19:57:42,071  INFO [main] WebEventList:43 - Clicked on [[ChromeDriver: chrome on WINDOWS (545e3d99a18090eb976dd2d2a1962f85)] -> xpath: //input[@id='signInSubmit']]
+2019-12-25 19:57:42,071  INFO [main] LoginPage:66 - Login button clicked
+2019-12-25 19:57:42,072  INFO [main] LoginTest:129 - Username and Password Entered
+2019-12-25 19:57:42,076  INFO [main] TestNGListener:45 - TestCase Passed login
+2019-12-25 19:57:42,387  INFO [main] TestNGListener:98 - TestCase Finished Test
+2019-12-25 19:57:42,520 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2019-12-25 19:57:42,526 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2019-12-25 19:57:42,566 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-12-25 19:57:42,570 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-12-25 19:57:42,571 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/HP/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

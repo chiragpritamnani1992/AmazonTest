@@ -17,7 +17,7 @@ import org.apache.poi.xssf.usermodel.*;
 
 public class MasterData {
 	
-	public static String excellocation="C:\\Users\\HP\\Java_Amazon\\AmazonTest\\src\\main\\java\\com\\qa\\data\\datasheet.xlsx";
+	public static String excellocation="C:\\Users\\HP\\Java_Amazon\\AmazonTest\\src\\main\\java\\com\\qa\\data\\datasheet_1.xlsx";
 	private static FileInputStream fis;
 	private static XSSFSheet sheet;
 	private static XSSFRow row;
@@ -25,7 +25,7 @@ public class MasterData {
 	static Map<String,String> myMap;
 	public static void main(String[] args) throws Exception
 	{
-		
+		System.out.println(getData(readExcelData(), "uname"));
 		//System.out.println(readExcelData());
 		//String val = getData(readExcelData(),"Lname");
 		//System.out.println(val);
@@ -36,11 +36,11 @@ public class MasterData {
 		File file= new File(excellocation);
 		fis=new FileInputStream(file);
 		workbook= new XSSFWorkbook(fis);
-		sheet= workbook.getSheet("Data");
+		sheet= workbook.getSheet("sheet1");
 		fis.close();
 	}
 	
-	public List<Map<String,String>> readExcelData()  throws Exception
+	public static List<Map<String,String>> readExcelData()  throws Exception
 	{
 		
 		if(sheet==null)
@@ -73,20 +73,19 @@ public class MasterData {
 	
 	}
 	
-	public String getData(List<Map<String,String>> readExcelData,String key) throws Exception{
+	public static List<String> getData(List<Map<String,String>> readExcelData,String key) throws Exception{
 		
+		List<String> values = new ArrayList<String>();
 		for(Map<String,String> map : readExcelData)
 		{
-			if(map.containsKey(key))
-			{
-				return map.get(key);
-			}
+			values.add(map.get(key));
 			
 			
 		}
-		return key;
+		return values;
 	
 	}
+	//Above solution is meant to give you single value stored in key at 1 data set ONLY.
+	//if u need to retrieve all values for specific  key from different sets of column, then you will have to collect them and as you loop.
 	
-
 }

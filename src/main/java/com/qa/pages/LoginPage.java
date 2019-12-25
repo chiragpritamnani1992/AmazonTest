@@ -53,26 +53,20 @@ public void clickSignin()
 }
 
 
-public  void enterLoginDetails(String username, String password1) throws Exception
+public  HomePage enterLoginDetails() throws Exception
 {
-	//driver.findElement(email).sendKeys(property.getProperty("Username"));
-	
-	
-	//driver.findElement(password).sendKeys(property.getProperty("Password"));
-	
-	driver.findElement(email).sendKeys(username);
+	driver.findElement(email).sendKeys(property.getProperty("Username"));
 	driver.findElement(continuee).click();
-	driver.findElement(password).sendKeys(password1);
+	driver.findElement(password).sendKeys(property.getProperty("Password"));
+
 	
 	
 	driver.findElement(loginbtn).click();
 	
 	log.info("Login button clicked");
-	Thread.sleep(2000);
-	driver.findElement(menu).click();
-	driver.findElement(By.xpath("//div[contains(text(),'Sign Out')]")).click();
-	//driver.close();
-	//return new HomePage();
+	
+	
+	return new HomePage();
 	
 		
 }

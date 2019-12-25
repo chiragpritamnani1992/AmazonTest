@@ -37,7 +37,7 @@ public class LoginTest extends TestBase{
 	
 	}
 
-	@DataProvider(name="LoginData")
+	/*@DataProvider(name="LoginData")
 	String[][] getData() throws IOException
 	{
 		String path="C:\\Users\\HP\\Java_Amazon\\AmazonTest\\src\\main\\java\\com\\qa\\data\\datasheet_1.xlsx";
@@ -58,7 +58,7 @@ public class LoginTest extends TestBase{
 		
 		
 	}
-	
+	*/
 	@BeforeSuite
 	public void Browserinitlization() throws Exception
 	{
@@ -119,12 +119,13 @@ public class LoginTest extends TestBase{
 			}
 	
 	
-	@Test(dataProvider="LoginData",priority=4)
-	public void login(String uname,String pwd ) throws Exception
+	//@Test(dataProvider="LoginData",priority=4)
+	@Test(priority=4)
+	public void login() throws Exception
 	{
 	
 		//homepage=login.enterLoginDetails(uname, pwd);
-		login.enterLoginDetails(uname, pwd);
+		homepage=login.enterLoginDetails();
 		log.info("Username and Password Entered");
 		test.log("Username and Password Entered");
 		

@@ -8,7 +8,7 @@
     <classes>
       <class name="com.qa.test.LoginTest">
         <methods>
-          <include name="login" invocation-numbers="1"/>
+          <include name="login"/>
           <include name="Browserinitlization"/>
         </methods>
       </class> <!-- com.qa.test.LoginTest -->
