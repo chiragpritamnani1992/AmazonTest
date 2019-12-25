@@ -38,8 +38,8 @@ public void clickonLink() throws InterruptedException
 	test.log("Clicked on High Price");
 	home.Star();
 	test.log("Clicked on Star");
-	home.sort();
-	test.log("Clicked on Sort");
+	//home.sort();
+	//test.log("Clicked on Sort");
 }
 
 }

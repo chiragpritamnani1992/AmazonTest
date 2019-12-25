@@ -26,7 +26,155 @@ Involved in execute all manual test cases and understood the test cases before s
 
 
 There are 3 diff phases
+Automation:
+1.What is xpath and it's types?
+2.What is cross browser testing and parallel testing?
+3.Challenges faced during selenium testing?
+4.What is Actions class?
+5.How to handle drop down in selenium?
+6.How to handle multiple browser pop up?
+7.How to handle multiple browser tabs in selenium?
+8.How to perform upload file using selenium?
+9.How to perform download file using selenium?
+10.How to get all values of dropdown in selenium?
+11.How to perform (control + a) through selenium?
+12.How to shift between tabs of a same browser using selenium?
+13.What is Robot class?
+14.What is AutoIT?
+15.What are the difference between get() and navigate()?
+16.What are the difference between findElement() and findElements()?
+17.What is difference between quit() and close()?
+18.What are different locators used?
+19.Difference between xpath and cssSelector?
+20.Different approaches to click the submit button?
+21.What is javascriptExecutor and when it is used?
+22.Handling WebTable(static and dynamic) in selenium
+23.What is POM? Advantage and its disadvantage?
+24.What is maven? list its phases or life cycle?Command to run our project thro maven?
+25.Explain ur project folder structure? Or Explain ur frame work?
+26.What is testng?
+27.How to create and delete cookies?
+28.What does getwindowhandles() and getwindowhandle() return? Or its differences?
+29.Is it possible to use only perform() without build()? 30.What is perform() and build()?
+31.How to scroll the browser window?
+32.Preceding sibling and following sibling of custom xpath?
+33.What is test management tool used in ur project?
+34.What is the build automation tool used in ur project?
+35.How u will handle the SSL certification?
+Or what is DesiredCapabilities?
+36.How to verify 'Bangalore' present in dropdown box or not?
+37.How to verify 'Bangalore' present in 4×4 webtable? And print the column and row number of it is present?
+38.How to fetch the data from particular row and column of excel?
+39.List all maven plugins like surefire plugin etc
+40.What is jenkins?And explain its use?
+41.Explain the tags present in testng.xml file
+42.What is TDD?
+43.What is BDD? Explain cucumber framework?What is gherkins?
+44.What is Listener?
+45.What is DataProvider?
+46.What is parameterization?
+47.What is PageFactory?
+48.What is apache POI API? Or how to read data from excel?
+49.What is explicit and implicit waits?
+50.What are the challenges faced in automation testing?
+51.Write code for handling multiple browsers and switch to new windows?
+52.What is webdriver?And why webdriver is used?
+53.List some selenium exceptions
+54.What is StaleElementReferenceException?When this occurs?And how to overcome such exception?
+55.How do you group the test cases? And why?
+56.How to include or exclude test cases?
+57.What is NullPointerException?When it occurs?
+58.What is selenium grid?
+59.Should have knowledge on all testng annotations.
+60.How do you control the execution of your test cases/test classes?
+61.Git and its commands
+62.Maven commands to execute,debug,compile
+63.What is the current version of maven used?
+64.How to identify broken links?How you have done in your project?Write code or tell approach.
+65.Write a code to fetch the value 'Test' from excel sheet which might be present in any cell in excel. Or check whether value 'Test' is present in excel or not.
+66.How to pass values to textbox other than using sendKeys()?
+67.How to click login button other than using click(), submit() and JavascriptExecutor?
+68.What is subversion?
 
+Manual:
+1.What are test design techniques?Explain BVA and ECP with some example?
+2.Explain STLC
+3.Explain Bug Life Cycle
+4.What is the difference between bug and defect?
+5.What is severity and priority?
+6.Explain SDLC
+7.What are the differences between smoke and sanity testing?
+8.What are the difference between regression and re-testing?
+9.What is sytem testing?
+10.What is integration testing?
+11.What are differences between test scenario and test case?
+12.What are the differences between test plan and test strategy?
+13.Write test cases for pen
+14.Write test cases for calculator
+15.Write test cases for calendar
+16.What is RTM?
+17.What is agile methodology?Explain it.
+18.How is agile better than waterfall model?
+19.What is scrum?
+20.What is sprint?Explain the sprint cycle in your project?
+
+CoreJava:
+1.What is static?
+2.What is interface?
+3.What is abstract class?
+4.What is the difference between interface and abstract class?
+5.Difference between HashMap and Hashtable?
+6.Difference between List and Set?
+7.Can we create object for abstract class?if not, why?
+8.Whether we can declare class as static?
+9.Polymorphism w.r.t variables and methods? Or overriding and overloading?
+10.In what way we can sort the elements(default and custom sort) present in array and any of the collection objects?
+11.How to generate random number in java?And also generate random numbers of format 'A23BC'?
+12.Is it possible to call a protected data members of one package in another package? Similarly all other access modifiers and its data members scope from other packages?
+13.What is thread?
+14.Pre-increment/decrement and post-increment/decrement
+15.What is singleton class?
+16.Explain List
+17.Explain Set
+18.Explain Map
+19.Why strings are immutable?
+20.What is exception?And its types?
+21.What is checked and unchecked exception?
+22.What is comparable and comparator?
+23.All oops concepts in single program.Explain OOPS
+
+Coding:
+1.Write a java program
+2.Print from 1 to 10 without using any loop
+3.Reverse a string without using built in methods
+4.Reverse each words in a sentence(string)without changing the order of words
+5.Reverse a string without using any loop or built in function
+6.Remove spaces from string without using replace()
+7.Print occurrences of distinct letters present in string
+8.Print the indexes of specificed letter in string
+9.Print the returned indexes of 2 elements from an array[2,4,3,6,8,7] where addition of 2 elements is equal to target sum=7
+10.Transpose a matrix using 2D array concept
+11.Print the first repeated character from a string
+Ex: abcdcba , output:c
+12.Find whether the string is having unique characters or not
+13.Write a program to remove duplicates from an array without using collection? (Note: new array shld have its size equal to unique number of elements present in given array)
+14.Write a program to print fibonacci series
+15.Find and print the maximum character present in string
+
+Project:
+1.Explain about your project?
+2.Tell me your roles and responsibilities
+3.What type of tests you have performed?
+4.What is hybrid testing framework?List the frameworks used in your project?
+5.How many test cases you have automated?
+6.How many % of your application is automated?
+7.If captcha is present in your project, how you automate it?
+8.List all challenges faced in ur project.
+9.How u report that there is bug in software?
+10.Who all joins the scrum meeting calls?
+11.Have you implemented framework from scratch?
+12.When you start writing test cases/test scripts?
+13.How can be a good selenium test cases written?
 1) Implementation
 2) Execution
 3) Manintance : using ci/cd

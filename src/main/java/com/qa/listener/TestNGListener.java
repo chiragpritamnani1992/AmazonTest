@@ -17,6 +17,7 @@ import com.qa.base.TestBase;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.HTMLReporter;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class TestNGListener extends TestBase implements ITestListener{
@@ -25,7 +26,8 @@ public class TestNGListener extends TestBase implements ITestListener{
 
 	public static ExtentTest test;
 	public static ExtentReports reports;
-
+	
+	
 	public void onTestStart(ITestResult result) {
 		
 		test= reports.startTest(result.getMethod().getMethodName());
@@ -84,11 +86,11 @@ public class TestNGListener extends TestBase implements ITestListener{
 		log.info("Test Case Started"+ " " + context.getName());
 
 		String workingdir= System.getProperty("user.dir");
-		String datename= new SimpleDateFormat("yyyy-MM-d-hh-mm-ss").format(new Date());
+		String datename= new SimpleDateFormat("dd-MM-yyyy-hh-mm-ss").format(new Date());
 		reports=new ExtentReports(workingdir+"\\ExtentReports\\ExtentReportResults"+ " "+datename+".html",true);
-		
 		reports.addSystemInfo("Host Name", "Chirag");
 		reports.addSystemInfo("Enviroment", "QA");
+		
 		
 	}
 
@@ -96,6 +98,8 @@ public class TestNGListener extends TestBase implements ITestListener{
 		log.info("TestCase Finished " + context.getName());
 		reports.endTest(test);
 	    reports.flush();
+	    driver.close();
+	    
 	    
 
 	}

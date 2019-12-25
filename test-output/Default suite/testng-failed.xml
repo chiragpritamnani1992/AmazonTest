@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.test.HomePageTest">
+      <class name="com.qa.pages.FBTEst">
         <methods>
-          <include name="clickonLink"/>
+          <include name="Test" invocation-numbers="0 1"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.test.HomePageTest -->
+      </class> <!-- com.qa.pages.FBTEst -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

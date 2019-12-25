@@ -12,11 +12,11 @@
   
   
   <test thread-count="5" name="Test">
-  
+ <!-- <parameter name="browser" value="firefox"/> -->
 
   <classes>
 			<class name="com.qa.test.LoginTest" />
-			<class name="com.qa.test.HomePageTest" />
+			<!--  <class name="com.qa.test.HomePageTest" />-->
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

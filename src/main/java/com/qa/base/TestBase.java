@@ -17,9 +17,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-
-
+import org.testng.annotations.Parameters;
 
 import com.qa.listener.WebEventList;
 
@@ -55,7 +55,7 @@ public class TestBase {
 	}
 	
 	
-
+	//@Parameters("browser")
 	public static void initlization() 
 	{
 		
@@ -72,7 +72,12 @@ public class TestBase {
 		}
 		else
 		{
-			System.out.println("No Such Browser");
+			System.setProperty("webdriver.gecko.driver", "D:\\Jenkins\\drivers\\geckodriver.exe");
+			driver= new FirefoxDriver();
+			event= new EventFiringWebDriver(driver);
+			list= new WebEventList();
+		    event.register(list);
+			driver=event;
 		}
 		
 		
@@ -87,7 +92,7 @@ public class TestBase {
 
 	public String screenshot(WebDriver driver, String methodname)
 	{
-		String dateName=  new SimpleDateFormat("yyyymmddhhmmss").format(new Date());
+		String dateName=  new SimpleDateFormat("dd-mm-yyyy-dd-hh-ss").format(new Date());
 		
 		try
 		{   TakesScreenshot sc = ((TakesScreenshot) driver);
